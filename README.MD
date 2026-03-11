@@ -1,3 +1,5 @@
+
+
 # 無人機數位孿生 (Digital Twin) 開發指南：從 CAD 到 ROS2/PX4 模擬
 
 本文件旨在提供一個完整的標準作業流程（SOP），指導如何將開源飛行器（例如 Titan Dynamics 的 Hornet VTOL）的 CAD 模型，轉換為可在 Gazebo、Pegasus Simulator 等環境中運行的物理模擬模型，並透過 ROS2 與 PX4 進行雙向物理驗證與 AI 控制控制訓練。
