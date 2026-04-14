@@ -1,0 +1,14 @@
+{
+    "configuration": "default",
+    "documentId": "77ac82d51ccf198b9461061e",
+    "documentMicroversion": "f72d5033a5a353f8cb1afd09",
+    "documentVersion": "701941eabf69d7ca975e912d",
+    "elementId": "f64d0799dc5d8f3d0eee1b4a",
+    "fullConfiguration": "default",
+    "id": "M8RMqBETGcEJ9ZxWG",
+    "isStandardContent": false,
+    "name": "fuse4(higher infill) <1>",
+    "partId": "JFD",
+    "suppressed": false,
+    "type": "Part"
+}

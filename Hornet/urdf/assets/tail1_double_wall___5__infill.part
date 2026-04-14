@@ -1,0 +1,14 @@
+{
+    "configuration": "default",
+    "documentId": "52cb9285f6fe473ddd5e4e04",
+    "documentMicroversion": "6ea4ac7a0b48e4c452e41dc1",
+    "documentVersion": "505bb5ff9f969d7eb76675a4",
+    "elementId": "8ad39aead2d052e9640ed0e0",
+    "fullConfiguration": "default",
+    "id": "MLZfLLFmq5oOSc0LF",
+    "isStandardContent": false,
+    "name": "tail1(double wall + 5% infill) <1>",
+    "partId": "JbD",
+    "suppressed": false,
+    "type": "Part"
+}

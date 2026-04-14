@@ -50,3 +50,9 @@ Here are the key tickets to enter the project:
 Hi guys, 歡迎有興趣的夥伴一起加入！目標是將 Hornet 導入 Pegasus Simulator 中，並進行飛行控制與 AI 控制訓練，或者透過 Gazebo 進行飛行控制，最終與實機進行雙向驗證。
 
 Hi guys, we welcome interested members to join us! Our goal is to bring Hornet into the Pegasus simulator for flight control and AI training, or use Gazebo for flight control, ultimately performing two-way validation with the real drone.
+
+---
+
+## 📈 目前進度 (Current Progress)
+*   **進度 5%**：目前仍在建立 CAD 模型中。
+*   **Progress 5%**: Currently still building the CAD model.

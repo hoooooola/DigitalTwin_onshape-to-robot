@@ -1,0 +1,14 @@
+{
+    "configuration": "default",
+    "documentId": "638ea46b5adf9742ca202921",
+    "documentMicroversion": "0056862f66b94136dd33f7b3",
+    "documentVersion": "57a88c45c26eeb3b5db13c2b",
+    "elementId": "2da717ba19b988e7f492bf43",
+    "fullConfiguration": "default",
+    "id": "IOIW4HjyU8P9v2+Oe",
+    "isStandardContent": false,
+    "name": "Motor bearing <3>",
+    "partId": "JHD",
+    "suppressed": false,
+    "type": "Part"
+}

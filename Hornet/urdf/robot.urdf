@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!-- Generated using onshape-to-robot -->
+<!-- Onshape https://cad.onshape.com/documents/072ff9e03efbb983c8d47cc2/w/5673ac186809038c99456b37/e/194144084390cf39e1189e3c -->
+<robot name="urdf">
+  <!-- Link hatch_2_full -->
+  <link name="hatch_2_full">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part hatch_2_full -->
+    <visual>
+      <origin xyz="0 0 -0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/hatch_2_full.stl"/>
+      </geometry>
+      <material name="hatch_2_full_material">
+        <color rgba="0.917647 0.917647 0.917647 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/hatch_2_full.stl"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>

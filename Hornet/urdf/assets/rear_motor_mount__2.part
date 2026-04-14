@@ -1,0 +1,14 @@
+{
+    "configuration": "default",
+    "documentId": "e01d3563719a13892ba69b9b",
+    "documentMicroversion": "680bc5d12e8fa28151745c50",
+    "documentVersion": "1b261ad3fa396ba1455de6d4",
+    "elementId": "d99e9ab51ec14050eae5ec6f",
+    "fullConfiguration": "default",
+    "id": "MY3R3SAmbKHxHxzD6",
+    "isStandardContent": false,
+    "name": "rear_motor_mount <1>",
+    "partId": "JGD",
+    "suppressed": false,
+    "type": "Part"
+}
