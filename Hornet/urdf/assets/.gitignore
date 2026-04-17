@@ -16,3 +16,5 @@
 *.dae
 *.obj
 *.ply
+*.part
+*.stl
