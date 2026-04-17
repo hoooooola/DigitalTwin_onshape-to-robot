@@ -2,16 +2,96 @@
 <!-- Generated using onshape-to-robot -->
 <!-- Onshape https://cad.onshape.com/documents/072ff9e03efbb983c8d47cc2/w/5673ac186809038c99456b37/e/194144084390cf39e1189e3c -->
 <robot name="urdf">
-  <!-- Link hatch_2_full -->
-  <link name="hatch_2_full">
+  <!-- Link wing1 -->
+  <link name="wing1">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="0"/>
-      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+      <origin xyz="-0.00133721 0.0441083 -0.00315653" rpy="0 0 0"/>
+      <mass value="2.05076"/>
+      <inertia ixx="0.0673813" ixy="-0.000374486" ixz="-1.18497e-05" iyy="0.0197586" iyz="-0.00336578" izz="0.0842119"/>
     </inertial>
+    <!-- Part tail1_double_wall___5__infill -->
+    <visual>
+      <origin xyz="-1.2094e-08 -0.000444084 -2.10974e-06" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/tail1_double_wall___5__infill.stl"/>
+      </geometry>
+      <material name="tail1_double_wall___5__infill_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.2094e-08 -0.000444084 -2.10974e-06" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/tail1_double_wall___5__infill.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part motor_2207_1300kv -->
+    <visual>
+      <origin xyz="-7.13e-09 0.359799 0.0352479" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_2207_1300kv.stl"/>
+      </geometry>
+      <material name="motor_2207_1300kv_material">
+        <color rgba="0.262745 0.282353 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-7.13e-09 0.359799 0.0352479" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_2207_1300kv.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part batt_p45b_6s2p -->
+    <visual>
+      <origin xyz="-0.00342064 -0.0196212 -0.0074" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/batt_p45b_6s2p.stl"/>
+      </geometry>
+      <material name="batt_p45b_6s2p_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00342064 -0.0196212 -0.0074" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/batt_p45b_6s2p.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part rear_motor_mount -->
+    <visual>
+      <origin xyz="-7.13e-09 0.359799 0.00499785" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/rear_motor_mount.stl"/>
+      </geometry>
+      <material name="rear_motor_mount_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-7.13e-09 0.359799 0.00499785" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/rear_motor_mount.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part hstab2_l -->
+    <visual>
+      <origin xyz="-0.00451085 0.000489169 -0.0168363" rpy="0.0305261 0.261804 -2.942e-09"/>
+      <geometry>
+        <mesh filename="package://assets/hstab2_l.stl"/>
+      </geometry>
+      <material name="hstab2_l_material">
+        <color rgba="0.768627 0.886275 0.952941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00451085 0.000489169 -0.0168363" rpy="0.0305261 0.261804 -2.942e-09"/>
+      <geometry>
+        <mesh filename="package://assets/hstab2_l.stl"/>
+      </geometry>
+    </collision>
     <!-- Part hatch_2_full -->
     <visual>
-      <origin xyz="0 0 -0" rpy="0 -0 0"/>
+      <origin xyz="2.2008e-08 -1.4672e-08 -0.000302158" rpy="0 -0 0"/>
       <geometry>
         <mesh filename="package://assets/hatch_2_full.stl"/>
       </geometry>
@@ -20,10 +100,810 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 -0" rpy="0 -0 0"/>
+      <origin xyz="2.2008e-08 -1.4672e-08 -0.000302158" rpy="0 -0 0"/>
       <geometry>
         <mesh filename="package://assets/hatch_2_full.stl"/>
       </geometry>
     </collision>
+    <!-- Part wing1 -->
+    <visual>
+      <origin xyz="4.42e-09 -1.841e-09 0.000297838" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/wing1.stl"/>
+      </geometry>
+      <material name="wing1_material">
+        <color rgba="0.231373 0.380392 0.705882 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="4.42e-09 -1.841e-09 0.000297838" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/wing1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part wing2b_double_wall__r -->
+    <visual>
+      <origin xyz="-1.00044e-05 -2.36e-09 0.000297831" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/wing2b_double_wall__r.stl"/>
+      </geometry>
+      <material name="wing2b_double_wall__r_material">
+        <color rgba="0.768627 0.886275 0.952941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.00044e-05 -2.36e-09 0.000297831" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/wing2b_double_wall__r.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part fuse2 -->
+    <visual>
+      <origin xyz="0 0 -2.15694e-06" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/fuse2.stl"/>
+      </geometry>
+      <material name="fuse2_material">
+        <color rgba="0.768627 0.886275 0.952941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -2.15694e-06" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/fuse2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part vstab -->
+    <visual>
+      <origin xyz="-3.518e-09 -0.000444 -2.11346e-06" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/vstab.stl"/>
+      </geometry>
+      <material name="vstab_material">
+        <color rgba="0.231373 0.380392 0.705882 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-3.518e-09 -0.000444 -2.11346e-06" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/vstab.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part wing4_r -->
+    <visual>
+      <origin xyz="-2.00044e-05 -4.335e-09 0.000297841" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/wing4_r.stl"/>
+      </geometry>
+      <material name="wing4_r_material">
+        <color rgba="0.768627 0.886275 0.952941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-2.00044e-05 -4.335e-09 0.000297841" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/wing4_r.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part hatch1 -->
+    <visual>
+      <origin xyz="2.2008e-08 2.81708e-07 -0.000302158" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/hatch1.stl"/>
+      </geometry>
+      <material name="hatch1_material">
+        <color rgba="0.231373 0.380392 0.705882 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="2.2008e-08 2.81708e-07 -0.000302158" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/hatch1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part tail2 -->
+    <visual>
+      <origin xyz="-9.141e-09 -0.000443846 -2.11893e-06" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/tail2.stl"/>
+      </geometry>
+      <material name="tail2_material">
+        <color rgba="0.231373 0.380392 0.705882 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-9.141e-09 -0.000443846 -2.11893e-06" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/tail2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part wing2a_double_wall__r -->
+    <visual>
+      <origin xyz="-1.08381e-05 -8.09104e-06 0.000297902" rpy="-3.00913e-06 -1e-10 -3.33413e-05"/>
+      <geometry>
+        <mesh filename="package://assets/wing2a_double_wall__r.stl"/>
+      </geometry>
+      <material name="wing2a_double_wall__r_material">
+        <color rgba="0.980392 0.713725 0.00392157 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.08381e-05 -8.09104e-06 0.000297902" rpy="-3.00913e-06 -1e-10 -3.33413e-05"/>
+      <geometry>
+        <mesh filename="package://assets/wing2a_double_wall__r.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part canopy2 -->
+    <visual>
+      <origin xyz="0.00059555 -0.0497145 0.000370387" rpy="0.000731199 -0.00645118 -0.00164176"/>
+      <geometry>
+        <mesh filename="package://assets/canopy2.stl"/>
+      </geometry>
+      <material name="canopy2_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00059555 -0.0497145 0.000370387" rpy="0.000731199 -0.00645118 -0.00164176"/>
+      <geometry>
+        <mesh filename="package://assets/canopy2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part wing1_r -->
+    <visual>
+      <origin xyz="-4.42e-09 -1.841e-09 0.000297834" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/wing1_r.stl"/>
+      </geometry>
+      <material name="wing1_r_material">
+        <color rgba="0.231373 0.380392 0.705882 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-4.42e-09 -1.841e-09 0.000297834" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/wing1_r.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part wing4 -->
+    <visual>
+      <origin xyz="2.00044e-05 -4.335e-09 0.000297845" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/wing4.stl"/>
+      </geometry>
+      <material name="wing4_material">
+        <color rgba="0.768627 0.886275 0.952941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="2.00044e-05 -4.335e-09 0.000297845" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/wing4.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part canopy1 -->
+    <visual>
+      <origin xyz="8.34823e-06 -0.049978 0.000970679" rpy="0.00342628 0.000334906 -3.71399e-05"/>
+      <geometry>
+        <mesh filename="package://assets/canopy1.stl"/>
+      </geometry>
+      <material name="canopy1_material">
+        <color rgba="0.768627 0.886275 0.952941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="8.34823e-06 -0.049978 0.000970679" rpy="0.00342628 0.000334906 -3.71399e-05"/>
+      <geometry>
+        <mesh filename="package://assets/canopy1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part wing3_r -->
+    <visual>
+      <origin xyz="-2.00044e-05 -1.28e-09 0.000297832" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/wing3_r.stl"/>
+      </geometry>
+      <material name="wing3_r_material">
+        <color rgba="0.231373 0.380392 0.705882 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-2.00044e-05 -1.28e-09 0.000297832" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/wing3_r.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part hstab1_l -->
+    <visual>
+      <origin xyz="4.94945e-06 -0.000444009 1.63994e-05" rpy="-1.1366e-08 0.2618 -2.942e-09"/>
+      <geometry>
+        <mesh filename="package://assets/hstab1_l.stl"/>
+      </geometry>
+      <material name="hstab1_l_material">
+        <color rgba="0.231373 0.380392 0.705882 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="4.94945e-06 -0.000444009 1.63994e-05" rpy="-1.1366e-08 0.2618 -2.942e-09"/>
+      <geometry>
+        <mesh filename="package://assets/hstab1_l.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part hstabl_r -->
+    <visual>
+      <origin xyz="-3.408e-08 -0.000443915 -6.32788e-06" rpy="7.77524e-06 -0.2618 -2.01238e-06"/>
+      <geometry>
+        <mesh filename="package://assets/hstabl_r.stl"/>
+      </geometry>
+      <material name="hstabl_r_material">
+        <color rgba="0.231373 0.380392 0.705882 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-3.408e-08 -0.000443915 -6.32788e-06" rpy="7.77524e-06 -0.2618 -2.01238e-06"/>
+      <geometry>
+        <mesh filename="package://assets/hstabl_r.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part carbontube_16_12_500 -->
+    <visual>
+      <origin xyz="-7.13e-09 0.140799 0.0199979" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/carbontube_16_12_500.stl"/>
+      </geometry>
+      <material name="carbontube_16_12_500_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-7.13e-09 0.140799 0.0199979" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/carbontube_16_12_500.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part wing2b_double_wall -->
+    <visual>
+      <origin xyz="1.00044e-05 -2.36e-09 0.000297835" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/wing2b_double_wall.stl"/>
+      </geometry>
+      <material name="wing2b_double_wall_material">
+        <color rgba="0.768627 0.886275 0.952941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="1.00044e-05 -2.36e-09 0.000297835" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/wing2b_double_wall.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part motor_2207_1300kv_2 -->
+    <visual>
+      <origin xyz="-7.13e-09 0.359799 0.0332479" rpy="0 -0 -0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_2207_1300kv__2.stl"/>
+      </geometry>
+      <material name="motor_2207_1300kv_2_material">
+        <color rgba="0.262745 0.282353 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-7.13e-09 0.359799 0.0332479" rpy="0 -0 -0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_2207_1300kv__2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part fuse1 -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/fuse1.stl"/>
+      </geometry>
+      <material name="fuse1_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/fuse1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part hstab2_r -->
+    <visual>
+      <origin xyz="0.00447626 0.00048706 -0.0167116" rpy="0.0305339 -0.261803 -2.01241e-06"/>
+      <geometry>
+        <mesh filename="package://assets/hstab2_r.stl"/>
+      </geometry>
+      <material name="hstab2_r_material">
+        <color rgba="0.768627 0.886275 0.952941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00447626 0.00048706 -0.0167116" rpy="0.0305339 -0.261803 -2.01241e-06"/>
+      <geometry>
+        <mesh filename="package://assets/hstab2_r.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part wing3 -->
+    <visual>
+      <origin xyz="2.00044e-05 -1.28e-09 0.000297835" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/wing3.stl"/>
+      </geometry>
+      <material name="wing3_material">
+        <color rgba="0.231373 0.380392 0.705882 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="2.00044e-05 -1.28e-09 0.000297835" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/wing3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part fuse4_higher_infill -->
+    <visual>
+      <origin xyz="0 0 -2.15694e-06" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/fuse4_higher_infill.stl"/>
+      </geometry>
+      <material name="fuse4_higher_infill_material">
+        <color rgba="0.231373 0.380392 0.705882 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -2.15694e-06" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/fuse4_higher_infill.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part counterweight -->
+    <visual>
+      <origin xyz="0 0.0987375 -0.0248022" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/counterweight.stl"/>
+      </geometry>
+      <material name="counterweight_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0.0987375 -0.0248022" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/counterweight.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part wing2a_double_wall -->
+    <visual>
+      <origin xyz="1.08381e-05 -8.09104e-06 0.000297906" rpy="-3.00913e-06 1e-10 3.33413e-05"/>
+      <geometry>
+        <mesh filename="package://assets/wing2a_double_wall.stl"/>
+      </geometry>
+      <material name="wing2a_double_wall_material">
+        <color rgba="0.980392 0.713725 0.00392157 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="1.08381e-05 -8.09104e-06 0.000297906" rpy="-3.00913e-06 1e-10 3.33413e-05"/>
+      <geometry>
+        <mesh filename="package://assets/wing2a_double_wall.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part fuse3 -->
+    <visual>
+      <origin xyz="0 0 -2.15694e-06" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/fuse3.stl"/>
+      </geometry>
+      <material name="fuse3_material">
+        <color rgba="0.768627 0.886275 0.952941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -2.15694e-06" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/fuse3.stl"/>
+      </geometry>
+    </collision>
   </link>
+  <!-- Link front_motor_mount_rebuild_l -->
+  <link name="front_motor_mount_rebuild_l">
+    <inertial>
+      <origin xyz="9.211e-09 0.0320237 0.0178784" rpy="0 0 0"/>
+      <mass value="0.0532257"/>
+      <inertia ixx="6.58184e-06" ixy="-4e-12" ixz="-1e-12" iyy="5.69212e-06" iyz="-9.0784e-08" izz="5.59563e-06"/>
+    </inertial>
+    <!-- Part front_motor_mount_rebuild_l -->
+    <visual>
+      <origin xyz="0.0799063 0.0245 -0.231364" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/front_motor_mount_rebuild_l.stl"/>
+      </geometry>
+      <material name="front_motor_mount_rebuild_l_material">
+        <color rgba="0.980392 0.713725 0.00392157 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0799063 0.0245 -0.231364" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/front_motor_mount_rebuild_l.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part motor_2207_1300kv_3 -->
+    <visual>
+      <origin xyz="0 0.02475 0.0179426" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_2207_1300kv.stl"/>
+      </geometry>
+      <material name="motor_2207_1300kv_3_material">
+        <color rgba="0.262745 0.282353 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0.02475 0.0179426" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_2207_1300kv.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part motor_2207_1300kv_4 -->
+    <visual>
+      <origin xyz="0 0.02275 0.0179426" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_2207_1300kv__2.stl"/>
+      </geometry>
+      <material name="motor_2207_1300kv_4_material">
+        <color rgba="0.262745 0.282353 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0.02275 0.0179426" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_2207_1300kv__2.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link motor_bearing -->
+  <link name="motor_bearing">
+    <inertial>
+      <origin xyz="-3e-12 1.4e-11 -0.02141" rpy="0 0 0"/>
+      <mass value="0.0119723"/>
+      <inertia ixx="1.07986e-05" ixy="-3.2685e-08" ixz="-0" iyy="7.55825e-07" iyz="0" izz="1.02467e-05"/>
+    </inertial>
+    <!-- Part propellor_7040 -->
+    <visual>
+      <origin xyz="0 0 -0.022" rpy="-3.14159 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/propellor_7040.stl"/>
+      </geometry>
+      <material name="propellor_7040_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.022" rpy="-3.14159 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/propellor_7040.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part motor_bearing -->
+    <visual>
+      <origin xyz="0 0 0" rpy="-3.14159 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_bearing.stl"/>
+      </geometry>
+      <material name="motor_bearing_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="-3.14159 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_bearing.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from front_motor_mount_rebuild_l to motor_bearing -->
+  <joint name="motor_2_CCW" type="revolute">
+    <origin xyz="-0 0.0245 0.0179426" rpy="-1.5708 -1.52993 -3.14159"/>
+    <parent link="front_motor_mount_rebuild_l"/>
+    <child link="motor_bearing"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Joint from wing1 to front_motor_mount_rebuild_l -->
+  <joint name="tiltRotor_L" type="revolute">
+    <origin xyz="0.231766 -0.0799765 0.0352946" rpy="1.5708 -0.0174503 1.57083"/>
+    <parent link="wing1"/>
+    <child link="front_motor_mount_rebuild_l"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-0" upper="1.55334"/>
+  </joint>
+  <!-- Link motor_bearing_2 -->
+  <link name="motor_bearing_2">
+    <inertial>
+      <origin xyz="-3e-12 1.4e-11 -0.02141" rpy="0 0 0"/>
+      <mass value="0.0119723"/>
+      <inertia ixx="1.07986e-05" ixy="-3.2685e-08" ixz="-0" iyy="7.55825e-07" iyz="0" izz="1.02467e-05"/>
+    </inertial>
+    <!-- Part motor_bearing_2 -->
+    <visual>
+      <origin xyz="-0 0 0" rpy="3.14159 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_bearing.stl"/>
+      </geometry>
+      <material name="motor_bearing_2_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0 0 0" rpy="3.14159 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_bearing.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part propellor_7040_2 -->
+    <visual>
+      <origin xyz="-0 0 -0.022" rpy="3.14159 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/propellor_7040.stl"/>
+      </geometry>
+      <material name="propellor_7040_2_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0 0 -0.022" rpy="3.14159 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/propellor_7040.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from wing1 to motor_bearing_2 -->
+  <joint name="motor_3_CWW" type="revolute">
+    <origin xyz="-7.13e-09 0.359799 0.0349979" rpy="3.14159 -0 -0"/>
+    <parent link="wing1"/>
+    <child link="motor_bearing_2"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Link aileron_l -->
+  <link name="aileron_l">
+    <inertial>
+      <origin xyz="0.0133048 0.0011298 -0.084565" rpy="0 0 0"/>
+      <mass value="0.00788323"/>
+      <inertia ixx="2.48456e-05" ixy="-1.25737e-07" ixz="-1.11459e-06" iyy="2.60397e-05" iyz="-2.19881e-07" izz="1.29335e-06"/>
+    </inertial>
+    <!-- Part aileron_l -->
+    <visual>
+      <origin xyz="-0.149514 0.0314188 0.27" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/aileron_l.stl"/>
+      </geometry>
+      <material name="aileron_l_material">
+        <color rgba="0.768627 0.886275 0.952941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.149514 0.0314188 0.27" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/aileron_l.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from wing1 to aileron_l -->
+  <joint name="ailron_L" type="revolute">
+    <origin xyz="0.27001 0.149514 0.0317166" rpy="-1.5708 -0 1.5708"/>
+    <parent link="wing1"/>
+    <child link="aileron_l"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-0.523599" upper="0.523599"/>
+  </joint>
+  <!-- Link elevator -->
+  <link name="elevator">
+    <inertial>
+      <origin xyz="-0.00118936 -0.0122455 -0.0984518" rpy="0 0 0"/>
+      <mass value="0.0355426"/>
+      <inertia ixx="0.000123895" ixy="-4.82206e-07" ixz="-2.9842e-08" iyy="0.000118505" iyz="-3.68665e-07" izz="5.68245e-06"/>
+    </inertial>
+    <!-- Part elevator -->
+    <visual>
+      <origin xyz="0.0751781 0.587532 0.0350007" rpy="-3.05121 1.57079 0"/>
+      <geometry>
+        <mesh filename="package://assets/elevator.stl"/>
+      </geometry>
+      <material name="elevator_material">
+        <color rgba="0.980392 0.713725 0.00392157 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0751781 0.587532 0.0350007" rpy="-3.05121 1.57079 0"/>
+      <geometry>
+        <mesh filename="package://assets/elevator.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from wing1 to elevator -->
+  <joint name="eleveter_L" type="revolute">
+    <origin xyz="0.0394608 0.591475 0.0120382" rpy="4.2418e-08 1.309 -3.14159"/>
+    <parent link="wing1"/>
+    <child link="elevator"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-0.523599" upper="0.523599"/>
+  </joint>
+  <!-- Link elevator_r -->
+  <link name="elevator_r">
+    <inertial>
+      <origin xyz="0.00118936 -0.0122455 -0.0984518" rpy="0 0 0"/>
+      <mass value="0.00664075"/>
+      <inertia ixx="2.31485e-05" ixy="9.0095e-08" ixz="5.576e-09" iyy="2.21415e-05" iyz="-6.8881e-08" izz="1.06171e-06"/>
+    </inertial>
+    <!-- Part elevator_r -->
+    <visual>
+      <origin xyz="-0.0751781 0.587532 0.0350007" rpy="-3.05121 -1.57079 -0"/>
+      <geometry>
+        <mesh filename="package://assets/elevator_r.stl"/>
+      </geometry>
+      <material name="elevator_r_material">
+        <color rgba="0.980392 0.713725 0.00392157 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0751781 0.587532 0.0350007" rpy="-3.05121 -1.57079 -0"/>
+      <geometry>
+        <mesh filename="package://assets/elevator_r.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from wing1 to elevator_r -->
+  <joint name="eleveter_R" type="revolute">
+    <origin xyz="-0.0394609 0.591475 0.0120382" rpy="4.2418e-08 -1.309 3.14159"/>
+    <parent link="wing1"/>
+    <child link="elevator_r"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-0.523599" upper="0.523599"/>
+  </joint>
+  <!-- Link front_motor_mount_rebuild_r -->
+  <link name="front_motor_mount_rebuild_r">
+    <inertial>
+      <origin xyz="9.211e-09 0.0320237 -0.0178784" rpy="0 0 0"/>
+      <mass value="0.0532257"/>
+      <inertia ixx="6.58184e-06" ixy="-4e-12" ixz="-1e-12" iyy="5.69212e-06" iyz="9.0782e-08" izz="5.59563e-06"/>
+    </inertial>
+    <!-- Part motor_2207_1300kv_5 -->
+    <visual>
+      <origin xyz="0 0.02475 -0.0179426" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_2207_1300kv.stl"/>
+      </geometry>
+      <material name="motor_2207_1300kv_5_material">
+        <color rgba="0.262745 0.282353 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0.02475 -0.0179426" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_2207_1300kv.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part front_motor_mount_rebuild_r -->
+    <visual>
+      <origin xyz="0.0799063 0.0245 0.231364" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/front_motor_mount_rebuild_r.stl"/>
+      </geometry>
+      <material name="front_motor_mount_rebuild_r_material">
+        <color rgba="0.980392 0.713725 0.00392157 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0799063 0.0245 0.231364" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/front_motor_mount_rebuild_r.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part motor_2207_1300kv_6 -->
+    <visual>
+      <origin xyz="0 0.02275 -0.0179426" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_2207_1300kv__2.stl"/>
+      </geometry>
+      <material name="motor_2207_1300kv_6_material">
+        <color rgba="0.262745 0.282353 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0.02275 -0.0179426" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_2207_1300kv__2.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link propellor_7040 -->
+  <link name="propellor_7040">
+    <inertial>
+      <origin xyz="-3e-12 1.4e-11 -0.02141" rpy="0 0 0"/>
+      <mass value="0.0119723"/>
+      <inertia ixx="1.07986e-05" ixy="-3.2685e-08" ixz="-0" iyy="7.55825e-07" iyz="0" izz="1.02467e-05"/>
+    </inertial>
+    <!-- Part motor_bearing_3 -->
+    <visual>
+      <origin xyz="0 0 0" rpy="-3.14159 -0 -0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_bearing__2.stl"/>
+      </geometry>
+      <material name="motor_bearing_3_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="-3.14159 -0 -0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_bearing__2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part propellor_7040_3 -->
+    <visual>
+      <origin xyz="-0 0 -0.022" rpy="-3.14159 -0 -0"/>
+      <geometry>
+        <mesh filename="package://assets/propellor_7040.stl"/>
+      </geometry>
+      <material name="propellor_7040_3_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0 0 -0.022" rpy="-3.14159 -0 -0"/>
+      <geometry>
+        <mesh filename="package://assets/propellor_7040.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from front_motor_mount_rebuild_r to propellor_7040 -->
+  <joint name="motor_1_CW" type="revolute">
+    <origin xyz="0 0.0245 -0.0179426" rpy="1.5708 -1.5708 0"/>
+    <parent link="front_motor_mount_rebuild_r"/>
+    <child link="propellor_7040"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Joint from wing1 to front_motor_mount_rebuild_r -->
+  <joint name="tiltRotor_R" type="revolute">
+    <origin xyz="-0.231766 -0.0799765 0.0352946" rpy="1.5708 -0.0174503 1.57076"/>
+    <parent link="wing1"/>
+    <child link="front_motor_mount_rebuild_r"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="0" upper="1.55334"/>
+  </joint>
+  <!-- Link aileron_r -->
+  <link name="aileron_r">
+    <inertial>
+      <origin xyz="0.0133048 -0.0011298 -0.084565" rpy="0 0 0"/>
+      <mass value="0.00788323"/>
+      <inertia ixx="2.48456e-05" ixy="1.25737e-07" ixz="-1.11459e-06" iyy="2.60397e-05" iyz="2.19881e-07" izz="1.29335e-06"/>
+    </inertial>
+    <!-- Part aileron_r -->
+    <visual>
+      <origin xyz="-0.149514 -0.0314188 0.27" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/aileron_r.stl"/>
+      </geometry>
+      <material name="aileron_r_material">
+        <color rgba="0.768627 0.886275 0.952941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.149514 -0.0314188 0.27" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/aileron_r.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from wing1 to aileron_r -->
+  <joint name="ailron_R" type="revolute">
+    <origin xyz="-0.27001 0.149514 0.0317166" rpy="1.5708 -0 1.5708"/>
+    <parent link="wing1"/>
+    <child link="aileron_r"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-0.523599" upper="0.523599"/>
+  </joint>
 </robot>
